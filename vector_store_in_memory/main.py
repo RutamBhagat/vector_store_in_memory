@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-from langchain.chains.question_answering import load_qa_chain
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain.document_loaders.pdf import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings
